@@ -1,0 +1,6 @@
+[submodule "FEA"]
+    path = FEA
+    url = <URL for FEA repository>
+[submodule "adv-js"]
+    path = adv-js
+    url = <URL for adv-js repository>
