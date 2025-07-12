@@ -4,3 +4,23 @@ RUNNING_STATUS.md
 README-DOCKER.md
 test_connection.sh
 DATABASE_SETUP.md
+
+# Ignore node_modules and build artifacts
+node_modules/
+build/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore Docker-related files
+*.docker
+*.env
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
